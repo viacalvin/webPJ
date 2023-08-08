@@ -2,7 +2,7 @@
 이 프로젝트는 대진대학교 AI연구실의 웹 프로젝트를 다룹니다.  
 현재 진행 중인 프로젝트 : 피아노타일 웹 구현  
   
-<img src="https://upload.mguwp.net/store/PMT/s.png" width=100% height=200px>
+<img src="https://upload.mguwp.net/store/PMT/s.png" width=100% height=350px>
 
 # Contributor  
 [Github - JungSaeYoung](https://github.com/JungSaeYoung)  
