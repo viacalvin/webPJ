@@ -6,9 +6,9 @@
 
 # Contributor  
 [Github - JungSaeYoung](https://github.com/JungSaeYoung)  
-[Github - layla-focalors](https://github.com/layla-focalors)
-[Github - ???](https://test.org)
-[Github - ???](https://test.org)
+[Github - layla-focalors](https://github.com/layla-focalors)  
+[Github - ???](https://test.org)  
+[Github - ???](https://test.org)  
 
 # Technology
 1. GIT
