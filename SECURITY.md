@@ -9,7 +9,7 @@
 | Release | Supported          |
 | ------- | ------------------ |
 | 11.0    | :white_check_mark: |
-| 8.3.x   | :x:                |
+| 8.3.x   | :white_check_mark:                |
 | 7.0.x   | :x: |
 | > 4.0   | :x:                |
 
