@@ -1,15 +1,16 @@
 # Security Policy
 
-## Supported Versions
+## 지원 버전
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+파이썬 패키지와 릴리즈 버전입니다  
+해당 버전 이상 사용해 주십시오
 
+### Python
 | Release | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :x: |
+| 11.0    | :white_check_mark: |
+| 8.3.x   | :x:                |
+| 7.0.x   | :x: |
 | > 4.0   | :x:                |
 
 ## 취약점 보고
