@@ -5,6 +5,13 @@ const mysql = require('mysql')
 let jsondata = require('./js/loader.js')
 let url = 'dns.dns.com'
 let address = './page/addr/api/login'
+let usercode = "c1982992"
+// usercode - 테스트 코드, 추후 개선 예정
+let enckeyword = "e1992"
+// 서버 private Key Encrypt
+
+const timer = new(Date())
+let token_public_uuid = '56591bbf-38c0-47b3-a957-adc4d7042802'
 
 function first_load(jsondata){
     if(cookie == null){    
@@ -14,9 +21,14 @@ function first_load(jsondata){
             data: jsondata,
             contentType: "json",
             success: function(data){
-               //your success function
+               let token = token_generator(add)(
+                token_name = usercode,
+                token_encrypt = enckeyword,
+                token_time = "time.relay = " + 1200 +'s',
+                token_validation = token_public_uuid
+               )
             },
-            error: function(errMsg) {
+            error: function(data) {
                 //your error function
             }
         });
@@ -56,5 +68,12 @@ function sql_connect(){
 }
 
 function server_return(cookie) {
+    COOKIE = NEW()
+}
 
+function uuid_list(uuid){
+    // 테스트용 UUID 저장소
+    const keyset = require('./js/keyset.js')
+    let keylist = keyset
+    alert("uuid keys = " + keylist)
 }
