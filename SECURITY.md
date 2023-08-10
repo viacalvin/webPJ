@@ -5,17 +5,13 @@
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
-| Version | Supported          |
+| Release | Supported          |
 | ------- | ------------------ |
 | 5.1.x   | :white_check_mark: |
 | 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 4.0.x   | :x: |
+| > 4.0   | :x:                |
 
-## Reporting a Vulnerability
+## 취약점 보고
 
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+프로젝트 취약점 발견 시 깃허브 이슈를 통하여 보고하여 주십시오
